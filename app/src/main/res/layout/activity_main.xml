@@ -40,7 +40,8 @@
         app:layout_constraintHorizontal_bias="0.666"
         app:layout_constraintStart_toEndOf="@+id/Title"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.057" />
+        app:layout_constraintVertical_bias="0.057"
+        android:src="@drawable/scan"/>
 
     <RelativeLayout
         android:id="@+id/search_bar"
@@ -55,11 +56,13 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_alignParentStart="true"
-            android:layout_marginStart="2dp" />
+            android:layout_marginStart="0dp">
 
-        <ImageView
-            android:layout_width="14dp"
-            android:layout_height="14dp" />
+            <ImageView
+                android:layout_width="14dp"
+                android:layout_height="14dp"
+                app:srcCompat="@android:drawable/ic_menu_search" />
+        </EditText>
 
     </RelativeLayout>
     <!--Change the color of the first layout to red -->
@@ -82,7 +85,8 @@
             android:layout_marginLeft="22dp"
             android:layout_marginTop="19dp"
             android:layout_marginRight="23dp"
-            android:layout_marginBottom="107dp" />
+            android:layout_marginBottom="107dp"
+            android:src="@drawable/pdf" />
 
         <TextView
             android:layout_width="69dp"
@@ -101,7 +105,8 @@
             android:layout_height="22.75dp"
             android:layout_marginLeft="35.63dp"
             android:layout_marginTop="138.62dp"
-            android:layout_marginRight="14.63dp" />
+            android:layout_marginRight="14.63dp"
+            android:src="@android:drawable/ic_media_play" />
     </RelativeLayout>
 
     <RelativeLayout
@@ -120,7 +125,8 @@
             android:layout_marginLeft="22dp"
             android:layout_marginTop="19dp"
             android:layout_marginRight="23dp"
-            android:layout_marginBottom="107dp" />
+            android:layout_marginBottom="107dp"
+            android:src="@drawable/historique"/>
 
         <TextView
             android:layout_width="69dp"
@@ -139,7 +145,8 @@
             android:layout_height="22.75dp"
             android:layout_marginLeft="35.63dp"
             android:layout_marginTop="138.62dp"
-            android:layout_marginRight="14.63dp" />
+            android:layout_marginRight="14.63dp"
+            android:src="@android:drawable/ic_media_play" />
 
 
     </RelativeLayout>
@@ -160,7 +167,8 @@
             android:layout_marginLeft="22dp"
             android:layout_marginTop="19dp"
             android:layout_marginRight="23dp"
-            android:layout_marginBottom="107dp" />
+            android:layout_marginBottom="107dp"
+            android:src="@drawable/qr_code"/>
 
         <TextView
             android:layout_width="69dp"
@@ -179,7 +187,8 @@
             android:layout_height="22.75dp"
             android:layout_marginLeft="35.63dp"
             android:layout_marginTop="138.62dp"
-            android:layout_marginRight="14.63dp" />
+            android:layout_marginRight="14.63dp"
+            android:src="@android:drawable/ic_media_play" />
 
 
     </RelativeLayout>
@@ -207,7 +216,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/navigation_item1"
         app:layout_constraintVertical_bias="0.392"
-        tools:ignore="SpeakableTextPresentCheck" />
+        tools:ignore="SpeakableTextPresentCheck"
+        android:src="@drawable/camera2"/>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -223,7 +233,8 @@
             android:layout_marginLeft="35.5dp"
             android:layout_marginTop="13.5dp"
             android:layout_marginRight="324.5dp"
-            android:layout_marginBottom="37.5dp" />
+            android:layout_marginBottom="37.5dp"
+            android:src="@drawable/home" />
 
         <TextView
             android:layout_width="40dp"
@@ -240,7 +251,8 @@
             android:layout_marginLeft="133.45dp"
             android:layout_marginTop="13.16dp"
             android:layout_marginRight="224.22dp"
-            android:layout_marginBottom="37.5dp" />
+            android:layout_marginBottom="37.5dp"
+            android:src="@drawable/favourite" />
 
         <TextView
             android:layout_width="63dp"
@@ -257,7 +269,8 @@
             android:layout_marginLeft="239dp"
             android:layout_marginTop="11dp"
             android:layout_marginRight="116dp"
-            android:layout_marginBottom="35dp" />
+            android:layout_marginBottom="35dp"
+            android:src="@drawable/acount"/>
 
         <TextView
             android:layout_width="58dp"
@@ -274,7 +287,8 @@
             android:layout_marginLeft="326dp"
             android:layout_marginTop="20dp"
             android:layout_marginRight="50dp"
-            android:layout_marginBottom="41dp" />
+            android:layout_marginBottom="41dp"
+            android:src="@drawable/more"/>
 
         <TextView
             android:layout_width="35dp"
@@ -283,7 +297,7 @@
             android:layout_marginTop="35dp"
             android:layout_marginRight="12dp"
             android:layout_marginBottom="11dp"
-            android:text="More"/>
+            android:text="More" />
 
 
     </RelativeLayout>

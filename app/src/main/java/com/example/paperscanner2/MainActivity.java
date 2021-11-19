@@ -10,7 +10,7 @@ import android.widget.Toast;
 
 public class MainActivity extends AppCompatActivity {
     public ImageButton imageButton;
-    public static final String EXTRA_MESSAGE = "Hello World";
+    public static final String EXTRA_MESSAGE = "Activity under production...";
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
