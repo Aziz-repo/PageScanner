@@ -15,10 +15,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        Intent intent = getIntent();
     }
     public void PdfButton(View view) {
         Intent intent = new Intent(this, PdfActivity.class);
         intent.putExtra("first", EXTRA_MESSAGE);
         startActivity(intent);
     }
+
 }
